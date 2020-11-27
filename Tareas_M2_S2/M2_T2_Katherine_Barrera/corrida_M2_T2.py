@@ -19,7 +19,7 @@ velocidad2_suave = 10
 tiempo2_suave_hr = distancia2_suave / velocidad2_suave
 
 suma_tiempo_hr = (tiempo_suave_hr + tiempo_media_hr + tiempo2_suave_hr)
-suma_a_hora = suma_tiempo_hr * float(60)
-llega = (suma_a_hora + salida_casa_min) / float(60) 
-print("LLega a la casa a las: " + str(llega) + " horas am.")
-print("Demorándose en el trayecto: " + str(suma_a_hora) + " minutos")
+llega = (suma_tiempo_hr + salida_casa)
+
+'''print("LLega a la casa a las: " + str(llega) + " horas am.")
+print("Demorándose en el trayecto: " + str(suma_tiempo_hr) + "horas")'''
